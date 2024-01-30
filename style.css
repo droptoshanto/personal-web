@@ -1,3 +1,4 @@
+
 body{
     font-family: "Poppins", sans-serif;
     margin: 0%;
@@ -63,6 +64,9 @@ section{
     background-image: url("image/latest-work-bg.png");
     background-repeat: no-repeat;
 }
+.client{
+    background-image: url(image/footer-bg.png);
+}
 .client-say{
     margin-left: 30%;
     text-align: center;
@@ -86,3 +90,66 @@ footer{
     font-size: 12px;
     color: dimgray;
 }
+
+@media screen and (max-width: 600px)
+{
+    
+        #text-align{
+            position: relative;
+            top:0px;
+            left:0px;
+      }
+      #text-align1{
+        position: relative;        top:0px;
+        left: 100px;
+    }
+      .half-width{
+        float: left;
+        margin-left: 0%;
+        padding-left: 0px;
+       
+      }
+      section{
+        height: 450px;
+        padding-left: 15px;
+        padding-bottom: 0px;
+      }
+      .namecolor{
+        font-size: 23px;
+        color: #EC4C7A;
+    }
+    .half-width img{
+        width: 180%;
+    }
+    .image2{
+        position: relative;
+        top: 70px;
+        right: 50px;
+    }
+    .mail-box{
+        height:70px;
+        width: 350px;
+        font-size: 13px;
+        padding: 2px 0px 27px;
+    }
+    .mail{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    .client-say{
+        text-align: center;
+        width: 100%;
+        position: relative;
+        right: 106px;
+        
+    }
+    .latest{
+        height: 300px;
+    }
+    .latest h1{
+        margin-left: 50px;
+    }
+
+}
+    

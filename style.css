@@ -152,4 +152,68 @@ footer{
     }
 
 }
+@media screen and (max-width: 400px)  
+{
+    #text-align{
+        position: relative;
+        top:-70px;
+        left:0px;
+        
+  }
+  #text-align1{
+    position: relative;        
+    top: -50px;
+    left: 60px;
+    width: 50%;
+}
+  .half-width{
+    float: left;
+    margin-left: 0%;
+    padding-left: 0px;
+   
+  }
+  section{
+    height: 400px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+  }
+  .namecolor{
+    font-size: 23px;
+    color: #EC4C7A;
+}
+.half-width img{
+    width: 180%;
+}
+.image2{
+    position: relative;
+    top: 70px;
+    right: 50px;
+}
+.mail-box{
+    height:70px;
+    width: 350px;
+    font-size: 13px;
+    padding: 2px 0px 27px;
+}
+.mail{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.client-say{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    right: 80px;
     
+}
+.latest{
+    height: 300px;
+}
+.latest h1{
+    margin-left: 20px;
+}
+.client{
+    padding-bottom: 100px;
+}
+}

@@ -1,76 +1,83 @@
 body{
     font-family: "Poppins", sans-serif;
-    margin: 0 auto;
+    margin: 0%;
 }
 .namecolor{
-    font-size: 40px;
+    font-size: 50px;
     color: #EC4C7A;
 }
-p{
+p,h6{
     color: dimgray;
 }
 .half-width{
     width: 40%;
     float: left;
-    margin-left: 2%;
+    margin-left: 5%;
     padding-left: 15px;
+    height: 500px;
 }
 .half-width img{
     width: 100%;
 }
-.button{
-    background-image: linear-gradient(45deg, #EC4C7A, #EC4C7A);
-    padding: 10px 12px;
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    border-radius: 3px;
+#text-align{
+    position: relative;
+    top:120px;
+    left:140px;
 }
-section{
-    height: 500px;
-    padding-bottom: 190px;
-    width: 100%;
+#text-align1{
+    position: relative;
+    top: 100px;
 }
 .introduction{
     background-image: url("image/header-bg.png");
     background-repeat: no-repeat;
-    height: 500px;
+    
 }
 .biography{
     background-image: url("image/biography-bg.png");
     background-repeat: no-repeat;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#EC4C7A, #EC4C7A);
+    padding: 10px 12px;
+    font-weight: 500;
+    color: white;
+}
+section{
     height: 500px;
+    padding: 20px;
 }
-.latest-work{
-    background-image: url("image/latest-work-bg.png");
-    background-repeat: no-repeat;
-    height: 500px;
-    text-align: center;
-    margin-top: 5%;
+.recent img{
+    width: 100%;
 }
-#text-align{
-    position: relative;
-    top: 28%;
-    left: 18%;
-    
-}
-#text-align1{
-    position: relative;
-    top: 35%;
-}
-.image2{
-    position: relative;
-    left: 25%;
-}
-.latest-work h1{
-    font-size: 40px;
-}
-.recent-work{
-    position: relative;
-    left: 350px;
-    top: 50px;
-}
-.recent-work img{
+.recent{
     width: 20%;
     float: left;
+    margin-left: 10%;
+}
+.latest h1{
+    text-align: center;
+}
+.latest{
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+.client-say{
+    margin-left: 30%;
+    text-align: center;
+    width: 40%;
+}
+.mail-box{
+    height: 150px;
+    width: 550px;
+    background-color: #EC4C7A;
+    border-radius: 6px;
+    padding-top: 20px;
+    color: white;
+}
+.mail{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
 }

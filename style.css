@@ -122,7 +122,8 @@ footer{
       }
       section{
         height: 450px;
-        padding-left: 15px;
+        width: 100%;
+        padding-left: 0px;
         padding-bottom: 0px;
       }
       .namecolor{
@@ -130,7 +131,7 @@ footer{
         color: #EC4C7A;
     }
     .half-width img{
-        width: 180%;
+        width: 140%;
     }
     .image2{
         position: relative;
@@ -155,16 +156,18 @@ footer{
     }
     .client-say{
         text-align: center;
-        width: 100%;
+        width: 80%;
         position: relative;
         right: 90px;
         
     }
     .latest{
         height: 300px;
+        position: relative;
+        right: 10px;
     }
     .latest h1{
-        margin-left: 50px;
+        margin-left: 0px;
     }
 
 }

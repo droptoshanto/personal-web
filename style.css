@@ -79,6 +79,9 @@ section{
     border-radius: 6px;
     padding-top: 20px;
     color: white;
+    text-align: center;
+    position: relative;
+    left: 350px;
 }
 .mail{
     text-decoration: none;
@@ -128,9 +131,14 @@ footer{
     }
     .mail-box{
         height:70px;
-        width: 350px;
+        width: 300px;
         font-size: 13px;
-        padding: 2px 0px 27px;
+        position: relative;
+        top: 0px;
+        left: 70px;
+        padding-top: 0px;
+        padding-left: 0px;
+        text-align: center;
     }
     .mail{
         text-decoration: none;
@@ -153,7 +161,7 @@ footer{
 
 }
 /* for 400px mobile device */
-@media screen and (max-width: 450px)  
+@media screen and (max-width: 430px)  
 {
     #text-align{
         position: relative;
@@ -173,13 +181,13 @@ footer{
   #text-align1{
     position: relative;        
     top: -140px;
-    left: 40px;
-    width: 60%;
+    left: 80px;
+    width: 50%;
 }
 .image2{
     position: relative;
     top: -80px;
-    left: -70px;
+    left: -30px;
 }
   .half-width{
     float: left;
@@ -201,31 +209,27 @@ footer{
 }
 .mail-box{
     height:70px;
-    width: 350px;
+    width: 300px;
     font-size: 13px;
-    padding: 2px 0px 27px;
-}
-.mail{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
+    position: relative;
+    top: 80px;
+    left: 70px;
+    padding-left: 0px;
+    text-align: center;
 }
 .client-say{
     text-align: center;
-    width: 120%;
     position: relative;
-    right: 90px;
+    right: 30px;
     top: 80px;
     
 }
 .latest{
-    height: 300px;
-    position: relative;
-    top: -30px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
 }
 .latest h1{
-    margin-left: 20px;
+    margin-right: 70px;
 }
 .client{
     padding-bottom: 300px;

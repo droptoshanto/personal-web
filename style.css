@@ -158,11 +158,16 @@ footer{
         text-align: center;
         width: 80%;
         position: relative;
-        right: 70px;
+        right: 60px;
         
     }
     .latest{
         height: 300px;
+    }
+    footer{
+        text-align: center;
+        color: dimgray;
+        font-size: 10px;
     }
 
 }

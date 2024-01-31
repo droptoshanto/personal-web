@@ -153,13 +153,13 @@ footer{
 
 }
 /* for 400px mobile device */
-@media screen and (max-width: 400px)  
+@media screen and (max-width: 450px)  
 {
     #text-align{
         position: relative;
         top:-10px;
-        left:5px;
-        width: 60%;
+        left:55px;
+        width: 50%;
         
   }
   #text-align h1{
@@ -168,7 +168,7 @@ footer{
   .image1{
         position: relative;
         right: 30px;
-        top: 60px;
+        top: 10px;
   }
   #text-align1{
     position: relative;        
@@ -178,7 +178,8 @@ footer{
 }
 .image2{
     position: relative;
-    top: -60px;
+    top: -80px;
+    left: -70px;
 }
   .half-width{
     float: left;
@@ -211,9 +212,9 @@ footer{
 }
 .client-say{
     text-align: center;
-    width: 100%;
+    width: 120%;
     position: relative;
-    right: 70px;
+    right: 90px;
     top: 80px;
     
 }
@@ -221,11 +222,14 @@ footer{
     height: 300px;
     position: relative;
     top: -30px;
+    width: 300px;
 }
 .latest h1{
     margin-left: 20px;
 }
 .client{
     padding-bottom: 300px;
+    background-repeat: no-repeat;
+    width: 300px;
 }
 }

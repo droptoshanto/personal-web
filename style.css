@@ -144,7 +144,7 @@ footer{
         font-size: 13px;
         position: relative;
         top: 30px;
-        left: 40px;
+        left: 70px;
         padding-top: 0px;
         padding-left: 0px;
         text-align: center;
@@ -158,16 +158,11 @@ footer{
         text-align: center;
         width: 80%;
         position: relative;
-        right: 90px;
+        right: 70px;
         
     }
     .latest{
         height: 300px;
-        position: relative;
-        right: 10px;
-    }
-    .latest h1{
-        margin-left: 0px;
     }
 
 }
